@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NS="b2bi-prod"
+NS="b2bi-nonprod"
 # Set variables
 if [[ -z ${B2B_DB_SECRET} ]]; then
   echo "Please provide environment variable B2B_DB_SECRET"
