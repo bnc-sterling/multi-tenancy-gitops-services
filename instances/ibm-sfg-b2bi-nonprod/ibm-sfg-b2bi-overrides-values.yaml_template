@@ -3,7 +3,7 @@ service-account:
   create: false
   sccs: ["anyuid"]
 
-ibm-sfg-prod:
+ibm-sfg-nonprod:
   global:
     image:
       repository: ${SFG_REPO}
